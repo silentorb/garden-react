@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>Garden</title>
+  <meta charset="UTF-8">
+
+  <script src="https://fb.me/react-0.13.3.js"></script>
+  <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>\
+
+  <script src="js/vineyard.js"></script>
+
+  <script type="text/jsx" src="elements/app.jsx"></script>
+
+</head>
+<body>
+<div id="app">
+</div>
+</body>
+<script type="text/jsx" >
+
+  React.render(
+    React.createElement(App, {name: "World"}),
+    document.getElementById('app')
+  )
+
+</script>
+</html>
